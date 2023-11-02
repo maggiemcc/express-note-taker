@@ -18,11 +18,14 @@ app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
+app.get('/notes', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/notes.html'))
+);
+
 // Wildcard Route
 app.get('*', (req, res) =>
 res.status(404).send('<h1>404! Page not found</h1>')
 );
-
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
