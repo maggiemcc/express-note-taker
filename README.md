@@ -15,7 +15,7 @@ Users will be able to easily write and save notes so they can better organize th
 ## License
 
 ![MIT-yellow License](https://img.shields.io/badge/License-MIT-yellow.svg)  
- This project is licensed under: [MIT License](https://opensource.org/licenses/MIT)
+ This project is licensed under: [MIT License](./LICENSE)
 
 ## Installation
 
@@ -30,6 +30,13 @@ npm init -y
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+```
+git init
+git add -A
+git commit -m"initial commit"
+heroku create
+heroku open
+```
 
 ## Contributors
 
