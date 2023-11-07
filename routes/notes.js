@@ -23,6 +23,7 @@ notes.post('/', (req, res) => {
     }
 });
 
+// Delete note according to id
 notes.delete('/:id', (req, res) => {
     const { id } = req.params;
 
@@ -31,7 +32,7 @@ notes.delete('/:id', (req, res) => {
         const removeNote = allNotes.findIndex(note => note.id == id);
         allNotes.splice(removeNote, 1);
         readAndRemove(allNotes, './db/db.json');
-        res.json(`Note added successfully`);
+        res.json(`Note deleted successfully`);
     });
 });
 
