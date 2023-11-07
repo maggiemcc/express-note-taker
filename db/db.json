@@ -1,14 +1,7 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Testing...",
-        "text": "1, 2, 3"
-    },
-    {
-        "title": "Testing!",
-        "text": "Maybe?"
+        "title": "Example",
+        "text": "This is an example.",
+        "id": "c3840131-e2d7-4a1a-b2b4-54d8ecf348f1"
     }
 ]

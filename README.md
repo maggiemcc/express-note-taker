@@ -18,13 +18,13 @@ Users will be able to easily write and save notes so they can better organize th
  This project is licensed under: [MIT License](./LICENSE)
 
 ## Installation
-
 List specific steps to help remove ambiguity and get people to use your project as quickly as possible. Let people know if it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually.  
  To install necessary dependencies, run the following command:
 
 ```
 npm install
 npm init -y
+npm install uuid
 ```
 
 ## Usage
