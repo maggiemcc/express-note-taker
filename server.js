@@ -18,11 +18,10 @@ app.use(express.static('public'));
 // GET Route for homepage
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/public/index.html')));
 
+// Get notes page
 app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, '/public/notes.html')));
 
-// Wildcard Route
-// app.get('/*', (req, res) =>
-// res.status(404).send('<h1>404! Page not found</h1>')
-// );
+// Wildcard Route for pages not found
+app.get('*', (req, res) => res.sendFile(path.join(__dirname, '/public/404.html')));
 
 app.listen(PORT, () => console.log(`App is listening at: http://localhost:${PORT}`));
