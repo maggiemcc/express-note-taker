@@ -2,20 +2,15 @@
 ## Table of Contents
 
 - [Description](#description)
-- [License](#license)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributors)
+- [License](#license)
 - [Questions](#questions)
 
 ## Description
 
 Users will be able to easily write and save notes so they can better organize their thoughts and keep track of tasks that need to be completed.
-
-## License
-
-![MIT-yellow License](https://img.shields.io/badge/License-MIT-yellow.svg)  
- This project is licensed under: [MIT License](./LICENSE)
 
 ## Installation
 List specific steps to help remove ambiguity and get people to use your project as quickly as possible. Let people know if it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually.  
@@ -34,8 +29,19 @@ Use this space to show useful examples of how a project can be used. Additional 
 git init
 git add -A
 git commit -m"initial commit"
+``` 
+To view app in localhost run:
+```
+npm start
+```
+
+To deploy app on Heroku: 
+```
+npm install -g heroku  
+heroku auth:login  
 heroku create
 heroku open
+git push heroku main
 ```
 
 ## Contributors
@@ -63,6 +69,11 @@ git push origin feature/featureName
 ```
 
 5. Open a Pull Request
+
+## License
+
+![MIT-yellow License](https://img.shields.io/badge/License-MIT-yellow.svg)  
+ This project is licensed under: [MIT License](./LICENSE)
 
 ## Questions
 
