@@ -2,6 +2,7 @@
 ## Table of Contents
 
 - [Description](#description)
+- [Screenshot](#screenshot)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributors)
@@ -10,7 +11,12 @@
 
 ## Description
 
-Users will be able to easily write and save notes so they can better organize their thoughts and keep track of tasks that need to be completed.
+Users will be able to easily write and save notes so they can better organize their thoughts and keep track of tasks that need to be completed.  
+
+[Click to view deployed Heroku App](https://mm-express-note-taker-03b08aa74ece.herokuapp.com/)  
+
+## Screenshot
+![](/public/assets/screenshot.png)
 
 ## Installation
 List specific steps to help remove ambiguity and get people to use your project as quickly as possible. Let people know if it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually.  
